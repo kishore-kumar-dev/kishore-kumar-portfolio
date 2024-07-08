@@ -14,7 +14,7 @@ const projects = [
       description: "Model for Detecting Phishing Links using Machine Learning.",
       links: {
         site: "#",
-        github: "#",
+        github: "https://github.com/kishore-kumar-dev/Acephish-Phish-Detector.git",
       },
     },
     {
@@ -23,7 +23,7 @@ const projects = [
       description: "A simple Google Photos Clone built with React.",
       links: {
         site: "#",
-        github: "#",
+        github: "https://github.com/kishore-kumar-dev/Galleria-Photo-gallery.git",
       },
     },
     {

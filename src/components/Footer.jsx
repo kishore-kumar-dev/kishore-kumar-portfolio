@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaGithubSquare, FaInstagram, FaLinkedin } from 'react-icons/fa'
+import { FaAws } from 'react-icons/fa6'
 
 const Footer = () => {
   return (
@@ -7,9 +8,10 @@ const Footer = () => {
         <div className='space-y-4'>
             <h3 className='text-2xl text-gray-200 font-semibold'>Kishore</h3>
             <div className='flex flex-row gap-6 text-gray-400 text-4xl'>
-                <a href="#"><FaGithubSquare /></a>
-                <a href="#"><FaLinkedin /></a>
-                <a href="#"><FaInstagram /></a>
+                <a href="https://github.com/kishore-kumar-dev"><FaGithubSquare /></a>
+                <a href="https://www.linkedin.com/in/kishorekumars-/"><FaLinkedin /></a>
+                {/* <a href="https://www.instagram.com/kishore_kumar_dev/"><Faa /></a> */}
+                {/* <a href="#"><FaInstagram /></a> */}
             </div>
 
         </div>

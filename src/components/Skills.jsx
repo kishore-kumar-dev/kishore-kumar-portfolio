@@ -20,6 +20,7 @@ import {
   DiDatabase,
 } from "react-icons/di"
 import Reveal from "./Reveal"
+import Ansible from "./Ansible"
 
 const skills = [
     {
@@ -31,6 +32,7 @@ const skills = [
         { name: 'Openshift', icon: <DiOpenshift className='text-red-600' /> },
         { name: 'Aws', icon: <DiAws className='text-yellow-500' /> },
         { name: 'GitHub', icon: <DiGithubBadge className='text-gray-600' /> },
+        // { name: 'Ansible', icon: <Ansible className='text-black-600'/> },
         // { name: 'React', icon: <Di className='text-blue-500' /> },
       ],
     },
@@ -39,10 +41,12 @@ const skills = [
       technologies: [
         { name: 'SQL', icon: <DiDatabase className='text-green-500' /> },
         { name: 'Python', icon: <DiPython className='text-yellow-600' /> },
+        // { name: 'C++', icon: <D className='text-blue-500' /> },
         // { name: 'React', icon: <DiReact className='text-blue-500' /> },
         { name: 'Html5', icon: <DiHtml5 className="text-orange-600 mx-2" />},
         { name: 'Css3', icon: <DiCss3 className='text-blue-500' /> },
         { name: 'Javascript', icon: <DiJavascript1 className='text-yellow-500' /> },
+        
         
         
       ],

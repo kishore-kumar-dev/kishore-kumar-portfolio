@@ -7,6 +7,7 @@ import {
     AiOutlineInstagram,
     AiOutlineLink,
     AiOutlineLinkedin,
+    AiOutlineSafetyCertificate,
 } from "react-icons/ai";
 import {
     DiAws,
@@ -91,6 +92,16 @@ const Hero = () => {
                             Download CV
                         </motion.a>
 
+                        <motion.a
+                            whileHover={{ scale: 1.05, boxShadow: "0px 0px 8px rgba(0, 0, 0, 0.3)" }}
+                            className="z-10 cursor-pointer font-bold text-gray-200 md:w-auto p-4 border border-purple-400 rounded-xl"
+                            href="https://rhtapps.redhat.com/verify?certId=220-085-468"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Certifications
+                        </motion.a>
+
                         <div className="flex gap-6 flex-row text-4xl md:text-6xl text-purple-400 z-20">
                             <motion.a whileHover={{ scale: 1.2 }} href="https://github.com/kishore-kumar-dev">
                                 <AiOutlineGithub />
@@ -98,7 +109,11 @@ const Hero = () => {
 
                             <motion.a whileHover={{ scale: 1.2 }} href="https://www.linkedin.com/in/kishorekumars-/">
                                 <AiOutlineLinkedin />
+                            
                             </motion.a>
+                            
+
+    
 
                         </div>
                     </motion.div>
