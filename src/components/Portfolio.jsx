@@ -10,8 +10,8 @@ import Reveal from './Reveal';
 const projects = [
     {
       img: project1,
-      title: "Project #1",
-      description: "UI for frontend development using React.",
+      title: "Project #1 - AcePhish",
+      description: "Model for Detecting Phishing Links using Machine Learning.",
       links: {
         site: "#",
         github: "#",
@@ -19,8 +19,8 @@ const projects = [
     },
     {
       img: project2,
-      title: "Project #2",
-      description: "A fullstack application built with Node.js and MongoDB.",
+      title: "Project #2 - Galleria",
+      description: "A simple Google Photos Clone built with React.",
       links: {
         site: "#",
         github: "#",

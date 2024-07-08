@@ -9,28 +9,42 @@ import {
   DiNodejsSmall,
   DiMongodb,
   DiGithubBadge,
+  DiRedhat,
+  DiDocker,
+  DiJenkins,
+  DiOpenshift,
+  DiAws,
+  DiScriptcs,
+  DiMysql,
+  DiPython,
+  DiDatabase,
 } from "react-icons/di"
 import Reveal from "./Reveal"
 
 const skills = [
     {
-      category: 'Frontend',
+      category: 'DevOps and Infrastructure',
       technologies: [
-        { name: 'HTML', icon: <DiHtml5 className='text-orange-600' /> },
-        { name: 'CSS', icon: <DiCss3 className='text-blue-600' /> },
-        { name: 'Sass', icon: <DiSass className='text-pink-600' /> },
-        { name: 'Bootstrap', icon: <DiBootstrap className='text-purple-600' /> },
-        { name: 'JavaScript', icon: <DiJavascript1 className='text-yellow-500' /> },
-        { name: 'React', icon: <DiReact className='text-blue-500' /> },
+        { name: 'RedHat', icon: <DiRedhat className='text-orange-600' /> },
+        { name: 'Docker', icon: <DiDocker className='text-blue-600' /> },
+        { name: 'Jenkins', icon: <DiJenkins className='text-pink-600' /> },
+        { name: 'Openshift', icon: <DiOpenshift className='text-red-600' /> },
+        { name: 'Aws', icon: <DiAws className='text-yellow-500' /> },
+        { name: 'GitHub', icon: <DiGithubBadge className='text-gray-600' /> },
+        // { name: 'React', icon: <Di className='text-blue-500' /> },
       ],
     },
     {
-      category: 'Fullstack',
+      category: 'Programming DB Frontend',
       technologies: [
-        { name: 'Node Js', icon: <DiNodejsSmall className='text-green-500' /> },
-        { name: 'MongoDB', icon: <DiMongodb className='text-green-600' /> },
-        { name: 'React', icon: <DiReact className='text-blue-500' /> },
-        { name: 'GitHub', icon: <DiGithubBadge className='text-gray-600' /> },
+        { name: 'SQL', icon: <DiDatabase className='text-green-500' /> },
+        { name: 'Python', icon: <DiPython className='text-yellow-600' /> },
+        // { name: 'React', icon: <DiReact className='text-blue-500' /> },
+        { name: 'Html5', icon: <DiHtml5 className="text-orange-600 mx-2" />},
+        { name: 'Css3', icon: <DiCss3 className='text-blue-500' /> },
+        { name: 'Javascript', icon: <DiJavascript1 className='text-yellow-500' /> },
+        
+        
       ],
     },
   ]
