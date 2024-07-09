@@ -30,7 +30,7 @@ import { motion } from "framer-motion";
 
 const Hero = () => {
     return (
-        <div className="mt-24 max-w-[1200px] mx-auto relative">
+        <div className="mt-24 max-w-[1200px] mx-auto relative flex flex-col gap-5">
             <div className="grid md:grid-cols-2 place-items-center gap-8">
                 <motion.div
                     initial={{ opacity: 0, y: -50 }}
@@ -80,7 +80,7 @@ const Hero = () => {
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                         transition={{ duration: 1, delay: 1.5 }}
-                        className="flex flex-row items-center gap-6 my-4 md:mb-0"
+                        className="max-[420px]:flex-col flex flex-row items-center gap-6 my-4 md:mb-0"
                     >
                         <motion.a
                             whileHover={{ scale: 1.05, boxShadow: "0px 0px 8px rgba(0, 0, 0, 0.3)" }}
@@ -102,7 +102,7 @@ const Hero = () => {
                             Certifications
                         </motion.a>
 
-                        <div className="flex gap-6 flex-row text-4xl md:text-6xl text-purple-400 z-20">
+                        <div className="max-[420px]:flex-col flex gap-6 flex-row text-4xl md:text-6xl text-purple-400 z-20 gitlink">
                             <motion.a whileHover={{ scale: 1.2 }} href="https://github.com/kishore-kumar-dev">
                                 <AiOutlineGithub />
                             </motion.a>
@@ -129,20 +129,21 @@ const Hero = () => {
                     transition={{ duration: 1 }}
                 />
             </div>
+            <p className="text-gray-200 mr-6 mt-8 flex justify-center ">My Tech Stack</p>
 
             <motion.div
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
                 transition={{ duration: 1, delay: 2 }}
-                className="flex flex-row text-7xl px-12 md:px-0 w-full justify-center items-center py-24"
+                className="max-[420px]:grid grid-cols-3 flex flex-row flex-wrap text-7xl px-12  md:px-0 w-full justify-center items-center py-14"
             >
-                <p className="text-gray-200 mr-6">My Tech Stack</p>
+                
                 <DiLinux className="text-black-1200 mx-2" />
                 <DiDocker className="text-blue-600 mx-2" />
                 <DiOpenshift className="text-red-500 mx-2" />
                 <DiGit className="text-green-500 mx-2" />
-                <DiAws className="text-yellow-500 mx-2" />
+                {/* <DiAws className="text-yellow-500 mx-2" /> */}
                 <DiJenkins className="text-orange-600 mx-2" />
                 <DiPython className="text-yellow-500 mx-2" />
                 <DiHtml5 className="text-orange-600 mx-2" />

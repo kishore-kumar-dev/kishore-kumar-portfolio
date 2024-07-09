@@ -3,6 +3,8 @@ import { AiFillLinkedin, AiFillGithub } from "react-icons/ai"
 import { motion } from "framer-motion"
 import Reveal from "./Reveal"
 
+
+
 const Contact = () => {
   return (
     <div className="px-6 max-w-[1000px] mx-auto md:my-12" id="contact">
