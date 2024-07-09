@@ -18,26 +18,26 @@ const Contact = () => {
                 </div>
 
                 <div className="flex mt-10 items-center gap-7">
-                    <div className="bg-gray-800/40 p-4 rounded-lg">
-                        <h3 className="md:text-4xl text-2xl font-semibold text-white">11
-                            <span>+</span>
-                        </h3>
-                        <p className="text-xs md:text-base"><span>Projects</span></p>
-                    </div>
-
-                    <div className="bg-gray-800/40 p-5 rounded-lg">
+                    {/* <div className="bg-gray-800/40 p-4 rounded-lg">
                         <h3 className="md:text-4xl text-2xl font-semibold text-white">5
                             <span>+</span>
                         </h3>
-                        <p className="text-xs md:text-base"><span>years of experience</span></p>
-                    </div>
+                        <p className="text-xs md:text-base"><span>Projects</span></p>
+                    </div> */}
 
-                    <div className="bg-gray-800/40 p-5 rounded-lg">
-                        <h3 className="md:text-4xl text-2xl font-semibold text-white">30
+                    {/* <div className="bg-gray-800/40 p-5 rounded-lg">
+                        <h3 className="md:text-4xl text-2xl font-semibold text-white">5
                             <span>+</span>
                         </h3>
-                        <p className="text-xs md:text-base"><span>happy clients</span></p>
-                    </div>
+                        <p className="text-xs md:text-base"><span>projects</span></p>
+                    </div> */}
+
+                    {/* <div className="bg-gray-800/40 p-5 rounded-lg">
+                        <h3 className="md:text-4xl text-2xl font-semibold text-white ">5
+                            <span>+</span>
+                        </h3>
+                        <p className="text-xs md:text-base"><span>projects</span></p>
+                    </div> */}
 
                 </div>
 

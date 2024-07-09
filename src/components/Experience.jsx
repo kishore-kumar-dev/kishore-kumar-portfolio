@@ -4,25 +4,25 @@ import Reveal from './Reveal'
 
 const experiences = [
     {
-        company: 'First Company',
-        period: '2020 - Present',
-        description: 'Description of your experience in this company.',
+        company: 'National Small Industries Corporation - Internship',
+        period: 'July 2022 - Aug 2022',
+        description: 'Completed the internship on Ai and IoT Domain.',
       },
       {
-        company: 'Second Company',
-        period: '2020 - Present',
-        description: 'Description of your experience in this company.',
+        company: 'Jorim Technology Solutions - Internship',
+        period: 'June 2023 - July 2023',
+        description: 'Worked on Web Development projects with Trendy Ai Tools',
       },
       {
-        company: 'Third Company',
-        period: '2020 - Present',
-        description: 'Description of your experience in this company.',
+        company: 'Vectra Technosoft Private Limited - Trainee',
+        period: 'Feb 2024 - Mar 2024',
+        description: 'Worked as Trainee on Technical Support Engineer',
       },
-      {
-        company: 'Fourth Company',
-        period: '2020 - Present',
-        description: 'Description of your experience in this company.',
-      },
+      // {
+      //   company: 'Fourth Company',
+      //   period: '2020 - Present',
+      //   description: 'Description of your experience in this company.',
+      // },
 ]
 
 

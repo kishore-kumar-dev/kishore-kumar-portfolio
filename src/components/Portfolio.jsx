@@ -13,7 +13,7 @@ const projects = [
       title: "Project #1 - AcePhish",
       description: "Model for Detecting Phishing Links using Machine Learning.",
       links: {
-        site: "#",
+        site: "https://drive.google.com/file/d/1lose_cicYFAva7yAKf5kLwNosUXIGOg5/view?usp=sharing",
         github: "https://github.com/kishore-kumar-dev/Acephish-Phish-Detector.git",
       },
     },
@@ -22,37 +22,37 @@ const projects = [
       title: "Project #2 - Galleria",
       description: "A simple Google Photos Clone built with React.",
       links: {
-        site: "#",
+        site: "https://drive.google.com/file/d/1T3eLZH8TJ7vjYHaqW0rQbzr_uzsKVSAk/view?usp=sharing",
         github: "https://github.com/kishore-kumar-dev/Galleria-Photo-gallery.git",
       },
     },
-    {
-      img: project4,
-      title: "Project #3",
-      description: "An e-commerce platform with various features.",
-      links: {
-        site: "#",
-        github: "#",
-      },
-    },
-    {
-      img: project5,
-      title: "Project #4",
-      description: "A mobile-friendly application using React Native.",
-      links: {
-        site: "#",
-        github: "#",
-      },
-    },
-    {
-      img: project6,
-      title: "Project #5",
-      description: "A data visualization project using D3.js and other libraries.",
-      links: {
-        site: "#",
-        github: "#",
-      },
-    },
+    // {
+    //   img: project4,
+    //   title: "Project #3",
+    //   description: "An e-commerce platform with various features.",
+    //   links: {
+    //     site: "#",
+    //     github: "#",
+    //   },
+    // },
+    // {
+    //   img: project5,
+    //   title: "Project #4",
+    //   description: "A mobile-friendly application using React Native.",
+    //   links: {
+    //     site: "#",
+    //     github: "#",
+    //   },
+    // },
+    // {
+    //   img: project6,
+    //   title: "Project #5",
+    //   description: "A data visualization project using D3.js and other libraries.",
+    //   links: {
+    //     site: "#",
+    //     github: "#",
+    //   },
+    // },
   ]
 
 const Portfolio = () => {
@@ -77,7 +77,7 @@ const Portfolio = () => {
                         <a href={project.links.site}
                             className='px-4 py-2 bg-slate-600 text-gray-200 rounded-lg hover:bg-slate-700
                                         transition duration-300'>
-                            View Site
+                            View Demo
                         </a>
                         <a href={project.links.github}
                             className='px-4 py-2 bg-slate-600 text-gray-200 rounded-lg hover:bg-slate-700
