@@ -85,7 +85,7 @@ const Hero = () => {
                         <motion.a
                             whileHover={{ scale: 1.05, boxShadow: "0px 0px 8px rgba(0, 0, 0, 0.3)" }}
                             className="z-10 cursor-pointer font-bold text-gray-200 md:w-auto p-4 border border-purple-400 rounded-xl"
-                            href="https://drive.google.com/file/d/1hYfl6DZbphroV5RBuBsbhgMMVH4kBLFH/view?usp=sharing"
+                            href="https://drive.google.com/file/d/1iBZnXxgFjgbw0GX7wS1sz2HFvhf9PYaJ/view?usp=sharing"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
